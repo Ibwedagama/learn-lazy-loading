@@ -46,29 +46,6 @@ export default {};
   margin-bottom: 160px;
 }
 
-.image-container .image[lazy="loading"] {
-  opacity: 0;
-}
-
-.image-container .image[lazy="loading"] {
-  background: linear-gradient(
-      100deg,
-      rgba(255, 255, 255, 0) 40%,
-      rgba(255, 255, 255, 0.5) 50%,
-      rgba(255, 255, 255, 0) 60%
-    )
-    gray;
-  background-size: 200% 100%;
-  background-position-x: 180%;
-  animation: 1s loading ease-in-out infinite;
-}
-
-@keyframes loading {
-  to {
-    background-position-x: -20%;
-  }
-}
-
 .support {
   display: flex;
   flex-direction: column;
