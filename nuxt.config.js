@@ -30,5 +30,9 @@ export default {
   modules: ["@nuxt/image"],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    filenames: {
+      chunk: () => "[name].js",
+    },
+  },
 };
